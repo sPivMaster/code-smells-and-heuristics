@@ -12,16 +12,8 @@ public class StructureDemo implements Structure {
     }
 
     public static void main(String args[]) {
-        Structure structure = new Structure() {
-            @Override
-            public int addTwoInteger(int a, int b) {
-                return a + b;
-            }
-
-            @Override
-            public int subtractTwoInteger(int a, int b) {
-                return a - b;
-            }
-        };
+        Structure structure = new StructureDemo();
+        structure.addTwoInteger(1, 2);
+        structure.subtractTwoInteger(1,2);
     }
 }

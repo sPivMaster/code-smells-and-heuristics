@@ -8,16 +8,17 @@ public class FunctionsAndCouplings {
         this.mitarbeiter = mitarbeiter;
     }
 
-    /*public void bezahlen() {
+    public void bezahlen() {
         for (Mitarbeiter m : mitarbeiter) {
             if (m.lohnzahlung()) {
                 LohnTransfer lt = m.betragBerechnen();
                 m.betragUeberweisen(lt);
             }
         }
-    }*/
+    }
+}
 
-    public void bezahlen() {
+/*public void bezahlen() {
         for (Mitarbeiter m : mitarbeiter) 
             betragBerechnen(m);
     }
@@ -31,5 +32,4 @@ public class FunctionsAndCouplings {
     public void betragBerechnenUndAuszahlen(Mitarbeiter m) {
         LohnTransfer lt = m.betragBerechnen();
         m.betragUeberweisen(lt);
-    }
-}
+    }*/
